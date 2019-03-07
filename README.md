@@ -1,5 +1,6 @@
 # NEWS-SENA
 Sistema de novedades en especifico retiros voluntarios 1803182 G2
+<BR>
 **![](https://lh3.googleusercontent.com/-EtNA7UP_6-96kY9RXfuZ0h4qKnwul_rLe39BozWBywWoYrE53i9RAyCqq6oNd3S2Q_DMH6XdJT0ncrsXumOXibhhZ9dIYNaFzgTWNKvIQF-iPSRSOt46o3WlozRQt-lQ833J4hK8aEVmY_9NQ)**
 ### News Sena, trabajando para tus novedades
 ## OBJETIVOS:
