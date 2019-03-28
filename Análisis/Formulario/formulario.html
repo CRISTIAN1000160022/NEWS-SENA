@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="estilos.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Retiro voluntario</title>
+	<style type="text/css">
+		body{
+			font-family: Arial;
+		}
+	</style>
+</head>
+<body>
+
+	<center><section class="formulario">
+		<div>
+		<h2>Retiro Voluntario</h2>
+		<label>Fecha del proceso: </label>
+		<input type="date" class="fecha">
+		<br>
+		<Label>Nombre del aprendiz: </Label>
+		<input type="text" class="name">
+		<br>
+		<label>Documento de identidad: </label>
+		<input type="radio" name="doc" value="TI" >TI 
+		<input type="radio" name="doc" value="CC" >CC 
+		<input type="radio" name="doc" value="CE" >CE 
+		<label>N° :</label>
+		<input type="number" class="num">
+		<br>
+		<label>Correo electronico :</label>
+		<input type="email" class="mail">
+		<br>
+		<label>Direccion de residencia :</label>
+		<input type="text" class="direc">
+		<label>Telefono :</label>
+		<input type="text" class="direc">
+		<br>
+		<label>Programa de formacion :</label>
+		<input type="text" class="program">
+		<br>
+		<label>Ficha del programa :</label>
+		<select class="ficha">
+			<option>1803182</option>
+			<option>2345634</option>
+			<option>8654312</option>
+			<option>3476451</option>
+		</select>
+		<label>Contraseña del sofia :</label>
+		<input type="password" class="contra">
+		<br>
+		<label>Soy beneficiario del apoyo de sostenimiento ?</label>
+		<input type="radio" name="doc" value="SI" >Si
+		<input type="radio" name="doc" value="NO" >No
+		<br>
+		<label>Actualmente cuento con contrato de aprendizaje ?</label>
+		<input type="radio" name="con" value="SI" >Si
+		<input type="radio" name="con" value="NO" >No
+		<br>
+		<label>Nombre de la empresa :</label>
+		<input type="text" class="empress">
+		<br>
+		<label>Razon por la cual se retira :</label>
+		<select class="razon">
+			<option>Falta de interes en el curso</option>
+			<option>Dedicacion a otros estudios o actividades </option>
+			<option>Problemas de salud</option>
+			<option>Maternidad</option>
+			<option>Problemas familiares o personales</option>
+			<option>Problemas laborales</option>
+			<option>Problemas economicos</option>
+			<option>Problemas de domicilio</option>
+			<option>Otra</option>
+		</select>
+		<br>
+		<label>Justificacion :</label>
+		<input type="text" class="justify">
+		<br>
+		ADJUNTE EL CARNET Y FIRME EL FORMATO
+		<table border="2" width="100%" style="background-color: white; color: black;">
+		<tr>
+			<th>
+				Firma del aprendiz
+			</th>
+			<th>
+				Carnet
+			</th>
+		</tr>
+		<tr>
+			<td height="100">
+				Firma :
+			</td>
+			<td height="100" >
+				<input type="file">
+			</td>
+		</tr>
+		</table>
+		<br>
+		<table border="2" style="background-color: white; color: black;">
+		<tr>
+			<th colspan="3">
+				PARA USO EXCLUSIVO DEL COMITE DE EVALUACION Y SEGUIMIENTO
+			</th>
+		</tr>
+		<tr>
+			<td height="50">
+				ESTADO DEL APRENDIZ EN SOFIA PLUS
+			</td>
+			<td height="10" width="350" colspan="2">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label>Recomendacion:</label>
+				<br>
+				<textarea cols="30" rows="5">
+				</textarea>
+			</td>
+			<td>
+				Visto Bueno del Coordinador(a) Academico(a)
+			</td>
+			<td height="10" width="100">
+				
+			</td>
+		</tr>
+		</table>
+		<br>
+		<button class="save"><i class="fa fa-save"></i> Guardar</button>
+		<button class="print"><i class="fa fa-print"></i> Imprimir</button>
+		<br>
+		</div>
+	</section>
+	</center>
+</body>
+</html>

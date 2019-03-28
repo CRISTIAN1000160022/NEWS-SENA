@@ -1,0 +1,134 @@
+.fecha {
+    width: 57%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid black;
+  }
+.name {
+    width: 57%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid black;
+  }
+  .num { 
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid black;
+  }
+  .mail {
+    width: 58%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid black;
+  }
+  .direc {
+    width: 22%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid black;
+  }
+  .program {
+    width: 55%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid black;
+  }
+  .ficha {
+    width: 15%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid black;
+  }
+  .contra {
+    width: 22%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid black;
+  }
+  .empress {
+    width: 55%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid black;
+  }
+  .razon {
+    width: 52%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid black;
+  }
+  .justify {
+    width: 65%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid black;
+  }
+  .firma{
+  	vertical-align: text-top;
+  }
+section{
+	background-color: rgba(0,0,0,0.5);
+	width: 40%;
+	height: 100%;
+	/*display: flex;
+	justify-content: center;*/
+  color: #ffffff;
+}
+body{
+  background-image: url(Sena.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  /*width: 75%*/
+}
+button{
+  padding: 20px 50px;
+}
+.save{
+  background-color: #22aed8;
+  border: none;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  transition-duration: 0.5s; 
+}
+.save:hover{
+  background-color: white;
+  color: black;
+}
+.print{
+  background-color: #dd8b3e;
+  border: none;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  transition-duration: 0.5s; 
+}
+.print:hover{
+  background-color: white;
+  color: black;
+}
+
+
